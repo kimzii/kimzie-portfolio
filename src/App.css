@@ -1,0 +1,17 @@
+@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #1C1C1C;
+}
+
+body {
+    background-color: #121212;
+    color: #FAF9F6;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: #FAF9F6;
+}
