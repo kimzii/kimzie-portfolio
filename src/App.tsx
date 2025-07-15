@@ -4,7 +4,7 @@ import { ProjectCard } from "./components/ProjectCard";
 import { Github, Linkedin } from "lucide-react";
 import profilePic from "./assets/kimzii.png";
 import { LanguageCard } from "./components/LanguageCard";
-import {Resume} from './components/Resume';
+import { Resume } from "./components/Resume";
 import { TechCard } from "./components/TechCard";
 
 function App() {
@@ -18,14 +18,24 @@ function App() {
             alt="kimzii"
             className="w-[50px] rounded-full"
           />
-          <div className="flex gap-2">
-            <Github />
-            <a href="https://github.com/kimzii">Github</a>
+          <div className="flex gap-2 hover:text-highlight transition">
+            <Github size={18} />
+            <a
+              className="hover:text-highlight transtion"
+              href="https://github.com/kimzii"
+            >
+              Github
+            </a>
           </div>
 
-          <div className="flex gap-2">
-            <Linkedin />
-            <a href="linkedin.com/in/kimzietorres">Linkedin</a>
+          <div className="flex gap-2 hover:text-highlight transition">
+            <Linkedin size={18} />
+            <a
+              className="hover:text-highlight transtion"
+              href="linkedin.com/in/kimzietorres"
+            >
+              Linkedin
+            </a>
           </div>
         </div>
       </div>
@@ -51,12 +61,12 @@ function App() {
           <div className="flex flex-col gap-4">
             <h1 className="text-2xl">Skills & Technologies</h1>
             <LanguageCard />
-            <TechCard/>
+            <TechCard />
           </div>
 
           <div>
             <h1 className="text-2xl">Resume</h1>
-            <Resume/>
+            <Resume />
           </div>
         </div>
       </div>

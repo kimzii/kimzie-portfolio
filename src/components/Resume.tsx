@@ -15,7 +15,7 @@ export const Resume: React.FC = () => {
           <a
             href="/KimzieTorres-CV.pdf"
             download="KimzieTorres-CV.pdf"
-            className="text-white hover:text-blue-600 transition mr-4"
+            className="text-white hover:text-highlight transition mr-4"
             aria-label="Download Resume"
           >
             <Download size={20} />
@@ -23,7 +23,7 @@ export const Resume: React.FC = () => {
 
           <button
             onClick={() => setShowResume(!showResume)}
-            className="text-white hover:text-blue-600 transition"
+            className="text-white hover:text-highlight transition"
             aria-label="Toggle Resume"
           >
             {showResume ? <X size={20} /> : <FileText size={20} />}
