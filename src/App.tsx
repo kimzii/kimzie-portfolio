@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="max-w-[700px] p-20 flex flex-col fixed">
         <Profile />
-        <div className="flex gap-6 items-center">
+        <div className="flex gap-6 items-center font-extralight ">
           <img
             src={profilePic}
             alt="kimzii"

@@ -1,8 +1,10 @@
 @tailwind utilities;
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @theme {
     --color-primary: #1C1C1C;
+    --font-Poppins: 'Poppins', sans-serif;
 }
 
 body {
@@ -10,6 +12,7 @@ body {
     color: #FAF9F6;
     display: flex;
     justify-content: center;
+    font-family: Poppins;
 }
 
 a{
