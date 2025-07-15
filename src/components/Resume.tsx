@@ -12,18 +12,15 @@ export const Resume: React.FC = () => {
       >
         {/* Icon Button */}
         <div className="flex justify-end items-center">
-          <button>
-            <Download
-              size={20}
-              className="text-white hover:text-blue-600 transition"
-            />
-            <a
-              href="/KimzieTorres-CV.pdf"
-              download="KimzieTorres-CV.pdf"
-              className="text-white hover:text-blue-600 transition"
-              aria-label="Download Resume"
-            ></a>
-          </button>
+          <a
+            href="/KimzieTorres-CV.pdf"
+            download="KimzieTorres-CV.pdf"
+            className="text-white hover:text-blue-600 transition mr-4"
+            aria-label="Download Resume"
+          >
+            <Download size={20} />
+          </a>
+
           <button
             onClick={() => setShowResume(!showResume)}
             className="text-white hover:text-blue-600 transition"
