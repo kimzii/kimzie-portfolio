@@ -1,11 +1,19 @@
+import { Typewriter } from "react-simple-typewriter";
 
 export const Profile = () => {
   return (
     <div>
-      <div className="text-2xl">
-        <h1>Hi, I'm</h1>
-        <h1>Kimzie Torres.</h1>
-      </div>
+      <h1 className="text-6xl font-bold">
+        <Typewriter
+          words={["Hi, I'm Kimzie Torres."]}
+          cursor
+          cursorStyle="|"
+          typeSpeed={70}
+          delaySpeed={30000} 
+          deleteSpeed={0} 
+          loop={false}
+        />
+      </h1>
 
       <p className="py-10 -text-sm font-extralight">
         A passionate developer with a love for building clean, efficient, and
