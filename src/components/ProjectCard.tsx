@@ -4,6 +4,7 @@ interface ProjectCardProps {
     title: string;
     description: string;
     language:string;
+    link: string;
 }
 
 export const ProjectCard = ({title, description, language}: ProjectCardProps) => {

@@ -20,12 +20,12 @@ function App() {
           />
           <div className="flex gap-2">
             <Github />
-            <a href="">Github</a>
+            <a href="https://github.com/kimzii">Github</a>
           </div>
 
           <div className="flex gap-2">
             <Linkedin />
-            <a href="">Linkedin</a>
+            <a href="linkedin.com/in/kimzietorres">Linkedin</a>
           </div>
         </div>
       </div>
@@ -38,12 +38,14 @@ function App() {
               title="Adidas Dashboard"
               description="A dashboard analyzing the sales for Adidas"
               language="R SHINY"
+              link="https://kimzii.shinyapps.io/Adidas_Dashboard/"
             />
 
             <ProjectCard
               title="Imperate Website"
               description="A website for a real estate company called Imperate"
               language="TYPESCRIPT"
+              link="https://www.imperateph.com/"
             />
           </div>
           <div className="flex flex-col gap-4">

@@ -30,7 +30,7 @@ export const TechCard = () => {
         </div>
       </div>
       <div className="p-10 bg-primary flex flex-col gap-6">
-        <h2 className="text-base">HOSTING</h2>
+        <h2 className="text-base">Hosting</h2>
         <div className="flex flex-wrap gap-4 text-sm font-extralight">
           <p>VERCEL</p>
           <p>NETLIFY</p>
