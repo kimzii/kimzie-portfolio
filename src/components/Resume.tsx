@@ -18,7 +18,7 @@ export const Resume: React.FC = () => {
             className="text-white hover:text-highlight transition mr-4"
             aria-label="Download Resume"
           >
-            <Download size={20} />
+            <Download size={16} />
           </a>
 
           <button
@@ -26,7 +26,7 @@ export const Resume: React.FC = () => {
             className="text-white hover:text-highlight transition"
             aria-label="Toggle Resume"
           >
-            {showResume ? <X size={20} /> : <FileText size={20} />}
+            {showResume ? <X size={20} /> : <FileText size={16} />}
           </button>
         </div>
 
