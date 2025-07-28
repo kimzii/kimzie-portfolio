@@ -62,7 +62,7 @@ function App() {
               title="Empower Prolink"
               description="A website for a virtual agency company called Empower Prolink, designed to showcase their services and portfolio."
               language="TYPESCRIPT"
-              link="https://github.com/kimzii/va-website"
+              link="https://va-website-dun.vercel.app/"
             />
           </div>
           <div className="flex flex-col gap-4">
