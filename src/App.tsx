@@ -46,16 +46,23 @@ function App() {
             <h1 className="text-2xl">Projects</h1>
             <ProjectCard
               title="Adidas Dashboard"
-              description="A dashboard analyzing the sales for Adidas"
+              description="A dashboard analyzing the sales for Adidas, built using R Shiny."
               language="R SHINY"
               link="https://kimzii.shinyapps.io/Adidas_Dashboard/"
             />
 
             <ProjectCard
               title="Imperate Website"
-              description="A website for a real estate company called Imperate"
+              description="A website for a real estate company called Imperate Ph, designed to showcase their properties and services."
               language="TYPESCRIPT"
               link="https://www.imperateph.com/"
+            />
+
+            <ProjectCard
+              title="Empower Prolink"
+              description="A website for a virtual agency company called Empower Prolink, designed to showcase their services and portfolio."
+              language="TYPESCRIPT"
+              link="https://github.com/kimzii/va-website"
             />
           </div>
           <div className="flex flex-col gap-4">

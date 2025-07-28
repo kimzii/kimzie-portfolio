@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 export const Profile = () => {
   return (
     <div>
-      <h1 className="text-6xl font-bold">
+      <h1 className="text-5xl font-bold">
         <Typewriter
           words={["Hi, I'm Kimzie Torres."]}
           cursor
@@ -15,7 +15,7 @@ export const Profile = () => {
         />
       </h1>
 
-      <p className="py-10 -text-sm font-extralight">
+      <p className="py-10 -text-sm font-extralight text-justify">
         A passionate developer with a love for building clean, efficient, and
         user-friendly digital experiences. With a strong foundation in web
         development, I enjoy solving complex problems and continuously learning
