@@ -64,6 +64,13 @@ function App() {
               language="TYPESCRIPT"
               link="https://va-website-dun.vercel.app/"
             />
+
+            <ProjectCard
+              title="GDSC 2023 Website"
+              description="A website for the Google Developer Student Clubs 2023, designed to showcase their events and activities."
+              language="TYPESCRIPT"
+              link="https://github.com/dsc-usep-obrero/gdscusepobrero-website"
+            />
           </div>
           <div className="flex flex-col gap-4">
             <h1 className="text-2xl">Skills & Technologies</h1>
